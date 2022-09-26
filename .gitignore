@@ -3,13 +3,11 @@
 *~
 .DS_Store
 .vscode
-test*
 .Rhistory
 
 # Folders
 /dask-worker-space/
 /0_Docs/
-.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -153,3 +151,7 @@ cython_debug/
 train_interactive.py
 tmp_fig.py
 log.txt
+
+
+docs\source\reader_preparation.ipynb
+

@@ -2,12 +2,6 @@
 Maintainers guidelines
 ========================
 
-.. warning::
-    This document is not complete !
-    
-    Currently under development. 
-	
-	Do not use it now. 
 
 The section is dedicated to the DISDRODB core developers (maintainers). 
 
@@ -126,6 +120,14 @@ To do : define test process
 Testing processes
 ============================
 
-To do : define test process
+Currently, only one github action is configured to run black on pull requests. 
+
+Side notes :
+
+* the black workflow is only executed in the context of a branch they exist in. If someone creates a PR with a change for a workflow file that targets main, it won’t run on main until that PR is merged into main. 
+
+* black is run on the whole directory (not only the commited files)
+
+
 
 
